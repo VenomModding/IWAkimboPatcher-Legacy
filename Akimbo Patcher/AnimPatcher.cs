@@ -42,7 +42,7 @@ namespace Akimbo_Patcher
                 "j_thumb_ri_2",
                 "j_thumb_ri_3",
                 "tag_knife_attach2",
-                "tag_weapon_right",
+                "tag_weapon",
                 "j_wristtwist_ri" } },
             // Joints to replace if we're processing right animation
             { "Right", new string[]{
@@ -72,7 +72,7 @@ namespace Akimbo_Patcher
                 "j_thumb_le_2",
                 "j_thumb_le_3",
                 "tag_knife_attach",
-                "tag_weapon_left",
+                "tag_weapon1",
                 "j_wristtwist_le", } },
         };
 
@@ -97,17 +97,17 @@ namespace Akimbo_Patcher
             // Rename j_gun if we're on left arm.
             else if (jointName == "j_gun" && arm == "Left")
             {
-                bone = "tag_weapon_le";
+                bone = "j_gun1";
             }
             // Rename tag_flash if we're on left arm.
             else if (jointName == "tag_flash" && arm == "Left")
             {
-                bone = "tag_flash_le";
+                bone = "tag_flash1";
             }
             // Rename tag_brass if we're on left arm.
             else if (jointName == "tag_brass" && arm == "Left")
             {
-                bone = "tag_brass_le";
+                bone = "tag_brass1";
             }
             // Everything else add 1.
             else if (arm == "Left")

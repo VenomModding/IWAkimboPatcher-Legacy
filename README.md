@@ -1,7 +1,9 @@
-# IWAkimboPatcher
+# IWAkimboPatcher-Legacy
 
 A tool to patch Akimbo SEAnim's from non-Treyarch Call of Duty Titles by renaming joints to disallow 
-animations affecting other joints and to allow for seperate weapon models.
+animations affecting other joints and to allow for seperate weapon models. 
+
+## Original tool done by [Scobalula](https://github.com/Scobalula/)
 
 # Download
 
@@ -14,9 +16,9 @@ for the left model you'll want to rename the following joints:
 
 | Joint            | New Name         |
 |------------------|------------------|
-| tag_weapon/j_gun | tag_weapon_le    |
-| tag_flash        | tag_flash_le     |
-| tag_brass        | tag_brass_le     |
+| tag_weapon/j_gun | j_gun1    |
+| tag_flash        | tag_flash1    |
+| tag_brass        | tag_brass1     |
 | Everything else  | Add 1 to the end |
 
 Make sure to save the right/left arm as seperate Maya scenes as we'll use them later for the
@@ -25,7 +27,7 @@ animations.
 To make this part easier, a MEL script is included to handle renaming the left arm model.
 
 2. Import the 2 models into your rig's scene and connect them to the arm, with the right going to
-t7:tag_weapon_right and the left going to t7:tag_weapon_left.
+tag_weapon and the left going to tag_weapon1.
 
 3. Drop the left/right (do each arm seperately) arm's animations onto the window with the correct arm
 selected in the drop down box and choose where to save them to.

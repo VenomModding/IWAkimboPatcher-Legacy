@@ -7,7 +7,7 @@ animations affecting other joints and to allow for seperate weapon models.
 
 # Download
 
-The latest version can be found on the [Releases Page](https://github.com/Scobalula/IWAkimboPatcher/releases).
+The latest version can be found on the [Releases Page](https://github.com/ribbitpoison/IWAkimboPatcher-Legacy/releases).
 
 # To use:
 
@@ -46,9 +46,7 @@ It was made as a quick app to fix animations for me, it was build to suit my nee
 
 # Donate
 
-If you use this tool in any of your projects, it would be appreciated if you credit me.
+If you use this tool in any of your projects, it would be appreciated if you credit me and Scobalula.
 
-If you'd like to support me even more, consider donating, I develop a lot of apps including IW Akimbo Patcher and majority are available free of charge with source code included:
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg)](https://www.paypal.me/scobalula)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg)](https://www.patreon.com/venom_modding)
 

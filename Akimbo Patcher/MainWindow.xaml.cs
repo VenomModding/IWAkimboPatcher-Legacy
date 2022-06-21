@@ -22,7 +22,7 @@ namespace Akimbo_Patcher
     /// </summary>
     public partial class MainWindow : Window
     {
-        public static string Version = "0.1.0";
+        public static string Version = "0.1.1.0";
         public MainWindow()
         {
             InitializeComponent();
@@ -31,7 +31,7 @@ namespace Akimbo_Patcher
             ArmTypes.Items.Add("Right");
             ArmTypes.SelectedIndex = 0;
             // Set Title
-            Title = string.Format("IW Akimbo Patcher {0}", Version);
+            Title = string.Format("IW Akimbo Patcher Legacy {0}", Version);
         }
 
         private void DropBox_Drop(object sender, DragEventArgs e)
@@ -74,8 +74,8 @@ namespace Akimbo_Patcher
 
         private void AboutButton_Click(object sender, RoutedEventArgs e)
         {
-            string about = string.Format("IW Akimbo Patcher {0} by Scobalula\nSELibDotNET by DTZxPorter", Version);
-            MessageBox.Show(about, "About", MessageBoxButton.OK);
+            string about = string.Format("IW Akimbo Patcher Legacy {0} by dsm_ribbitpoison\nOriginal IW Akimbo Patcher by Scobalula\nSELibDotNET by DTZxPorter", Version);
+            MessageBox.Show(about, "About Me", MessageBoxButton.OK);
         }
 
         private void LoadButton_Click(object sender, RoutedEventArgs e)
@@ -87,7 +87,7 @@ namespace Akimbo_Patcher
             // Filters
             fileDialog.Filter = "SEAnim files (*.seanim)|*.seanim";
             // Title
-            fileDialog.Title = "Select SEAnim files to patch";
+            fileDialog.Title = "Select the MW2/MW3/Ghosts akimbo weapon SEAnim files that you want to patch.";
             // Set Multiple Selection
             fileDialog.Multiselect = true;
             // Open

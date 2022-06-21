@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+Akimbo Patcher/packages.config
+Akimbo Patcher/FodyWeavers.xml
+Akimbo Patcher/Akimbo Patcher.csproj
+Akimbo Patcher/FodyWeavers.xml

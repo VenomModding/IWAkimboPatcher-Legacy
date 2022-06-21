@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Akimbo Patcher")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Akimbo Patcher Legacy")]
+[assembly: AssemblyDescription("Patch your SEAnims from Infinity Ward games to Treyarch-compatible format!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Scobalula")]
+[assembly: AssemblyCompany("Scobalula, dsm_ribbitpoison")]
 [assembly: AssemblyProduct("Akimbo Patcher")]
-[assembly: AssemblyCopyright("Copyright © Scobalula 2018")]
+[assembly: AssemblyCopyright("Copyright © Scobalula 2018, dsm_ribbitpoison 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,5 +51,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
+[assembly: AssemblyVersion("0.1.1.0")]
+[assembly: AssemblyFileVersion("0.1.1.0")]

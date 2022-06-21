@@ -42,7 +42,7 @@ namespace Akimbo_Patcher
                 "j_thumb_ri_2",
                 "j_thumb_ri_3",
                 "tag_knife_attach2",
-                "tag_weapon",
+                "tag_weapon1",
                 "j_wristtwist_ri" } },
             // Joints to replace if we're processing right animation
             { "Right", new string[]{
@@ -72,7 +72,7 @@ namespace Akimbo_Patcher
                 "j_thumb_le_2",
                 "j_thumb_le_3",
                 "tag_knife_attach",
-                "tag_weapon1",
+                "tag_weapon",
                 "j_wristtwist_le", } },
         };
 

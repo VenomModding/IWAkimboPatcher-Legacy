@@ -48,5 +48,5 @@ It was made as a quick app to fix animations for me, it was build to suit my nee
 
 If you use this tool in any of your projects, it would be appreciated if you credit me and Scobalula.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg)](https://www.patreon.com/venom_modding)
+[![Donate](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/venom_modding)
 
